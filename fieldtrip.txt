@@ -210,6 +210,12 @@ blockquote {
 	text-transform: none;
 	line-height: 160%;
 	color: {color:Accent};
+	#content .detail .ndp .social_buttons {
+     text-align: top;
+     }
+#content .detail .ndp .social_buttons .twitter {
+    text-align: middle;
+    }
 }
 .post .quote .arrow {
 	position: absolute;
@@ -285,7 +291,28 @@ span.action {
 }
 .credit { display: none !important }
 {CustomCSS}
+#footer_sharebuttons {
+
+  
+	margin: 23px 2px;
+  
+	padding: 0;
+    
+}
 </style>
+<!-- Scripts Start -->
+<!-- Facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Twitter -->
+<script type=”text/javascript” src=”http://platform.twitter.com/widgets.js”></script>
+<!-- Scripts End -->
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="http://static.tumblr.com/jw8fmba/GR1m4x0xu/discoid.js"></script>
@@ -364,7 +391,19 @@ span.action {
             	{LinkOpenTag}
                 	<img class="main" src="{PhotoURL-HighRes}" alt="{PhotoAlt}" />
                 {LinkCloseTag}
-                {block:Caption}{Caption}{/block:Caption}
+                {block:Caption}
+				<!-- Horizontal social buttons Start -->             
+<div id="footer_sharebuttons">
+<!-- Twitter -->
+<div style='float:left;'>
+<a href="https://twitter.com/share" class="twitter-share-button" data-related="FLDTRPMXY" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+<!-- Facebook Like+Send -->
+<div style='float:left;'>
+<div class="fb-like" data-href="{URLEncodedPermalink}" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="segoe ui"></div></div></div>
+
+				
+				{Caption}{/block:Caption}
             {/block:PermalinkPage}
         {/block:Photo}
 		{block:Link}
