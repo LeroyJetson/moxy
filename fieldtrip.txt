@@ -1,13 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<title>Milwaukee Life | FLDTRPMXY</title>
+<meta name="google-site-verification" content="4IBN11lCA30-XMEZXHjk4UIVB025Aeg_QykeUSRjq2Y" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>{Title}{block:SearchPage} | {SearchQuery}{/block:SearchPage}{block:PostSummary} | {PostSummary}{/block:PostSummary}</title>
+
+
 <link rel="shortcut icon" href="{Favicon}">
 <link rel="alternate" type="application/rss+xml" href="{RSS}">
-{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
 
+
+<meta name="title" content="Milwaukee Life | FLDTRPMXY" />
+<meta name="description" content="Milwaukee Life & Culture" />
+<meta name="keywords" content="Milwaukee, Photography, Culture, Nightlife, Art, Music, People" />
+
+
+<meta name="keywords" content="Milwuaukee, Music, Photography, Art, Culture, Nightlife, Neighborhoods" />
 <meta name="image:Background" content="" />
 <meta name="image:Custom header" content="" />
 <meta name="color:Background" content="#F9F9F9" />
