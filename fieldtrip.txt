@@ -174,10 +174,11 @@ blockquote {
 	color: {color:Accent};
 }
 .post p,.post li {
-	font-size: 13px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 22px;
 	line-height: 100%;
-	margin: 4px 4px;
-	text-align: right;
+	margin: 19px 4px;
+    text-align: center;
 	padding: 0;
 }
 .post ul {
@@ -289,28 +290,15 @@ span.action {
 }
 .credit { display: none !important }
 {CustomCSS}
-#footer_sharebuttons {
 
-  
-	margin: 23px 2px;
-  
+#footer_sharebuttons {
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+	margin: 13px 2px;
 	padding: 0;
-    
 }
 </style>
-<!-- Scripts Start -->
-<!-- Facebook -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- Twitter -->
-<script type=”text/javascript” src=”http://platform.twitter.com/widgets.js”></script>
-<!-- Scripts End -->
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script>
@@ -553,6 +541,12 @@ function insert_credit() {
 </script>
 <!--  Untitled Themes customize assistant  -->
 <script type="text/javascript" src="http://static.tumblr.com/jw8fmba/LhHmbnxjx/ut.js?ver=2"></script>
+
+<!-- Scripts Start -->
+<!-- Twitter -->
+<script type=”text/javascript” src=”http://platform.twitter.com/widgets.js”></script>
+<!-- Scripts End -->
+
 </head>
 <body id="32919">
 
@@ -625,19 +619,14 @@ function insert_credit() {
             	{LinkOpenTag}
                 	<img class="main" src="{PhotoURL-HighRes}" alt="{PhotoAlt}" />
                 {LinkCloseTag}
-                {block:Caption}
+				{block:Caption}{Caption}
+                
 				<!-- Horizontal social buttons Start -->             
-<div id="footer_sharebuttons">
-<!-- Twitter -->
-<div style='float:left;'>
-<a href="https://twitter.com/share" class="twitter-share-button" data-related="FLDTRPMXY" data-count="none">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
-<!-- Facebook Like+Send -->
-<div style='float:left;'>
-<div class="fb-like" data-href="{URLEncodedPermalink}" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="segoe ui"></div></div></div>
+					<div id="footer_sharebuttons">
+					<!-- Twitter -->
+						<a href="https://twitter.com/share" class="twitter-share-button">Tweet This Pic!</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-				
-				{Caption}{/block:Caption}
+                {/block:Caption}
             {/block:PermalinkPage}
         {/block:Photo}
 		{block:Link}
