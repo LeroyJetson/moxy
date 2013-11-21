@@ -532,11 +532,11 @@ span.action {
 
 
 
-.pst {
+.pst p {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     text-align: center;
     color: HotPink;
-    font-size: 7px;
+    font-size: 27px;
     font-style: italic;
     font-weight: bold;    
 }
