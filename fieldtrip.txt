@@ -198,11 +198,81 @@ blockquote {
     -webkit-transform: scale(1.01)}
 }
 
+@keyframes redPulse {
+    from { 
+      opacity: 0.3;
+      background: Tomato;
+      transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01); }
+  50% { opacity: 0.7;
+      background: Tomato;
+      transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07); }
+  to { opacity: 0.3;
+      background: Tomato;
+      transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01)}
+}
+
+
+
+@-moz-keyframes redPulse {
+    from { 
+      opacity: 0.3;
+      background: Tomato;
+      transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01); }
+  50% { opacity: 0.7;
+      background: Tomato;
+      transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07); }
+  to { opacity: 0.3;
+      background: Tomato;
+      transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01)}
+}
+
+@-o-keyframes redPulse {
+    from { 
+      opacity: 0.3;
+      background: Tomato;
+      transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01); }
+  50% { opacity: 0.7;
+      background: Tomato;
+      transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -webkit-transform: scale(1.07); }
+  to { opacity: 0.3;
+      background: Tomato;
+      transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01)}
+}    
+
+
 a.permalink:hover {
   -webkit-animation-name: redPulse;
   -webkit-animation-duration: 1.3s;
   -webkit-animation-iteration-count: infinite;
+  -animation-name: redPulse;
+  -animation-duration: 1.3s;
+  -animation-iteration-count: infinite;
+  -moz-animation-name: redPulse;
+  -moz-animation-duration: 1.3s;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: redPulse;
+  -o-animation-duration: 1.3s;
+  -o-animation-iteration-count: infinite;
 }
+
 
 
 
