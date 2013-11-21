@@ -796,8 +796,7 @@ function insert_credit() {
 				<!-- Horizontal social buttons Start -->             
 					<div id="footer_sharebuttons">
 					<!-- Twitter -->
-						<a href="https://twitter.com/share" class="twitter-share-button">Tweet This Pic!</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+						<a href="https://twitter.com/intent/tweet?button_hashtag=creamcity" class="twitter-hashtag-button" data-text="...is a part of MKE's charm." data-lang="en" data-related="FLDTRPMXY:CreamCityCulture">TWEETupMKE!</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 {/block:Caption}
             {/block:PermalinkPage}
         {/block:Photo}
