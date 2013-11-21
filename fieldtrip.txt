@@ -385,6 +385,7 @@ img.main {
 	position: relative;
 }
 .post ol.notes a {
+	text-align: left;
 	border: 0 !important;
 	
 }
@@ -409,14 +410,14 @@ img.main {
 span.action {
 	min-width: 500px;
 	position: absolute;
-	top: 30px;
+	top: -15px;
 	left: 0;
 	font-size: 13px;
 	text-align: left;
 	opacity: 0;
-	-webkit-transition: all .1s ease;
-	-moz-transition: all .1s ease;
-	transition: all .1s ease;
+	-webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	transition: all .6s ease;
 	z-index: 999;
 	color: #CC6699;
 }
