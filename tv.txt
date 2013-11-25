@@ -1,3 +1,4 @@
+<p><iframe frameborder="0" height="170" id="widget" scrolling="no" src="//widgets.jamendo.com/v3/track/1040136?autoplay=1&amp;layout=standard&amp;manualWidth=400&amp;width=600&amp;theme=dark&amp;highlight=5&amp;tracklist=true&amp;tracklist_n=3&amp;embedCode=" width="600" style="width: 600px; height: 170px;"></iframe></p>
 <div id="_giphy_tv"></div>
 <script type="text/javascript">// <![CDATA[
 var _giphy_tv_tag="excited";
@@ -5,4 +6,3 @@ var g = document.createElement('script'); g.type = 'text/javascript'; g.async = 
 g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'giphy.com/static/js/widgets/tv.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(g, s);
 // ]]></script>
-<p><iframe frameborder="0" height="170" id="widget" scrolling="no" src="//widgets.jamendo.com/v3/track/1040136?autoplay=1&amp;layout=standard&amp;manualWidth=400&amp;width=600&amp;theme=dark&amp;highlight=5&amp;tracklist=true&amp;tracklist_n=3&amp;embedCode=" width="600" style="width: 600px; height: 170px;"></iframe></p>
